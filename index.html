@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="An intuitive, easy to use, quick-access Congressional Directory">
+    	<meta name="keywords" content"congress, congressional, directory, information, contact information, contact info, birthday, mobile, committee assignments, senators, members of Congress, congressmen, congresswoman">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Polipsum</title>
+
+		<!-- external CSS link -->
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<!--Lato font-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+		<!--Internal stylesheet-->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	
+
+		<!--Jquery UI-->
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+		<!--Bootstrap-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Text for drop down more info section-->
+
+
+		<header>
+			<div class="container"> <!--The initial screen with the search bar-->
+
+			  	<div class="row"> <!--white space-->
+					<div class="col-xs-12"><h1>Polipsum - Political Loreum Ipsum Generator</div>
+				</div>
+			</div>
+		</header>
+
+
+  		<div class="container" id="main_body">
+  			<div class="row"> <!--How many paragraphs-->
+  				<div class="col-xs-12" id="paragraphSelector">
+  					<form form="paragraphs">
+	  					<span class="inputText">How many paragraphs would you like?<input type="number" min="1" max="30" form="paragrphs" id="paragraphInput"></span>
+	  					<button form="paragraphs" id="paragraphButton">Generate</button>
+  					</form>
+  				</div>
+			</div>
+			<div class="row"> <!--Main text-->
+				<div class="col-xs-5 col-sm-offset-2 col-md-8" id="polipsumText">
+				</div>
+			</div>
+		</div> <!---->
+
+	<footer class="footer">
+<!-- 		<div class="row">
+			<div class="col-xs-offset-6 photoInfo">
+			These hot springs are in Idaho. Idaho is home to the most number of usable hot springs - 130 - of the over 340 hot springs in the state.
+			</div>
+		</div> -->
+	</footer>
+
+	<!--Google Analytics
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-44820806-5', 'auto');
+	  ga('send', 'pageview');
+
+	</script>-->
+
+	<script src="js/script.js"></script> <!--Load JavaScript file-->
+	</body>	
+</html>
