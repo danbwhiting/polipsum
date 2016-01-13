@@ -8,23 +8,17 @@ $('document').ready(function() {
 
 	var numberOfParagraphs = 0; 
 
-
-
-
 	// User selects number of paragraphs
 
 	$('#paragraphButton').on('click', function() {
 		$('#polipsumText').empty();
-		console.log(numberOfParagraphs);
 		var paragraphLength = 40;
 		numberOfParagraphs = $('#paragraphInput').val();
-		console.log('Now it is ' + numberOfParagraphs);
 		// Set variable to number of paragraphs
 
 		for (i = 0; i < numberOfParagraphs; i++) {
 			paragraphLength = Math.floor(Math.random()*50)
 			paragraphLength = paragraphLength + 40;
-			console.log(paragraphLength);
 					// Variable set to random number between 40 and 90 
 
 			polipsumParagraph = '';
@@ -38,12 +32,8 @@ $('document').ready(function() {
 				polipsumParagraph = polipsumParagraph + ' ' + politicalTerms[polipsumWord];
 						// Add string located at variable position within array
 			}
-			console.log(polipsumParagraph);
 
 			$('#polipsumText').append('<p>'+polipsumParagraph);
-
-
-
 
 
 		// Capitalize first letter
@@ -52,9 +42,9 @@ $('document').ready(function() {
 		}
 	});
 
- 	$(function() {
-    	$( "#polipsumText" ).selectable();
- 	});
+ 	// $(function() {
+  //   	$( "#polipsumText" ).selectable();
+ 	// });
 
 });
 
