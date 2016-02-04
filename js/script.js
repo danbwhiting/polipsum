@@ -18,6 +18,7 @@ $('document').ready(function() {
 
 		for (i = 0; i < numberOfParagraphs; i++) {
 			paragraphLength = Math.floor(Math.random()*50)
+			console.log(paragraphLength);
 			paragraphLength = paragraphLength + 40;
 					// Variable set to random number between 16 and 90 
 
