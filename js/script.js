@@ -12,14 +12,14 @@ $('document').ready(function() {
 
 	$('#paragraphButton').on('click', function() {
 		$('#polipsumText').empty();
-		var paragraphLength = 40;
+		var paragraphLength = 15;
 		numberOfParagraphs = $('#paragraphInput').val();
 		// Set variable to number of paragraphs
 
 		for (i = 0; i < numberOfParagraphs; i++) {
 			paragraphLength = Math.floor(Math.random()*50)
 			paragraphLength = paragraphLength + 40;
-					// Variable set to random number between 40 and 90 
+					// Variable set to random number between 16 and 90 
 
 			polipsumParagraph = '';
 					// Reset paragraph 
