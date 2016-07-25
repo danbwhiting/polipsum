@@ -21,16 +21,12 @@ $('document').ready(function() {
 		// Set variable to number of paragraphs
 
 		for (i = 0; i < numberOfParagraphs; i++) {
-			paragraphLength = Math.floor(Math.random()*50)
-<<<<<<< HEAD
+			paragraphLength = Math.floor(Math.random()*50);
 			paragraphLength = paragraphLength + 4;
 					// Variable set to random number between 40 and 90 
-=======
 			console.log(paragraphLength);
 			paragraphLength = paragraphLength + 15;
 					// Variable set to random number between 15 and 65 
->>>>>>> origin/gh-pages
-
 			polipsumParagraph = '';
 					// Reset paragraph 
 
